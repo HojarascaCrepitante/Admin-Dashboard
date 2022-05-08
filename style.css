@@ -1,7 +1,7 @@
 .main-content{
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr 2fr;
     grid-template-rows: 1fr 3fr;
 }
 .sidebar{
@@ -10,7 +10,7 @@
 }
 nav{
     display: grid;
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 15px;
@@ -37,4 +37,19 @@ form{
     grid-column: 2 / 4;
     justify-content: center;
     align-items: center;
+}
+.repositories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+.card{
+    background-color: bisque;
+    border-style: solid;
+    height: 200px;
+    margin: 20px;   
+}
+.repositories > p{
+    grid-column: 1 / 3;
+    padding-left: 20px;
 }
