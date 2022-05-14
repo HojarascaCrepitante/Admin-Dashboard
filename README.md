@@ -1,0 +1,1 @@
+In this project I applied knowledge of CSS Grid mixed in with some Flexbox, the holy grail layout.
