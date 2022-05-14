@@ -273,3 +273,15 @@ li a:hover{
 .trending div p{
     padding-left: 8px;
 }
+.trending .trend:first-of-type{
+    border-radius: 25px 25px 0px 0px;
+}
+.trending .trend:last-of-type{
+    border-radius: 0px 0px 25px 25px;
+}
+.announcements article:first-of-type{
+    border-radius: 25px 25px 0px 0px;
+}
+.announcements article:last-of-type{
+    border-radius: 0px 0px 25px 25px;
+}
